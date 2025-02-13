@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 021891599381.dkr.ecr.us-east-1.amazonaws.com
-          docker build -t 021891599381.dkr.ecr.us-east-1.amazonaws.com/roboshop-schema-load:latest .
-          docker push 021891599381.dkr.ecr.us-east-1.amazonaws.com/roboshop-schema-load:latest
+          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 418272784676.dkr.ecr.us-east-1.amazonaws.com
+          docker build -t 418272784676.dkr.ecr.us-east-1.amazonaws.com/roboshop-schema-load:latest .
+          docker push 418272784676.dkr.ecr.us-east-1.amazonaws.com/roboshop-schema-load:latest
 
 #
